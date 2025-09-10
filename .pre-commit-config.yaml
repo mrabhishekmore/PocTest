@@ -14,8 +14,9 @@ repos:
         args: ["--select=D100,D102,D103"]
   
   - repo: https://github.com/mrabhishekmore/custom_hooks
-    rev: 0ba5cead67723c4a7c3d68f14f6e4cd53ecfe6ef
+    rev: 220f5a0a8818920dc23d3a7f3b5afac65984f1ed
     hooks:
       - id: audit-setup
+      - id: aqd-review
       - id: check-sonar-quality-gate
         verbose: true
